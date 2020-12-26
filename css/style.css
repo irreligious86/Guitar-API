@@ -1,0 +1,43 @@
+
+* {
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*box-sizing: border-box;*/
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #bdbdbd;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto min-content;
+    justify-content: center;
+    justify-items: end;
+    align-items: center;
+    gap: 5px 10px;
+}
+
+input {
+    margin: 0;
+
+}
+
+.some{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
